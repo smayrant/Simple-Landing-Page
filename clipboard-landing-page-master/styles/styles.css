@@ -1,3 +1,39 @@
+body{
+    font-family: 'Bai Jamjuree';
+}
+
+/* header section styles */
+
 header{
     background-image: url(../images/bg-header-mobile.png);
+}
+
+.logo-img-container{
+    display: flex;
+    justify-content: center;
+}
+
+#header-logo{
+    margin: 7em 0 5em;
+}
+
+/* headings styles */
+
+#header-heading{
+    font-size: 2em;
+}
+
+.secondary-heading{
+    font-size: 1.5em;
+}
+
+.heading{
+    font-weight: 600;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+
+/* text styles */
+.text-snippet{
+    color:  hsl(201, 11%, 66%);
 }
